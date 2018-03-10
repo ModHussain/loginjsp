@@ -1,0 +1,444 @@
+<!--<html>
+	<head>
+		<center><b><strong><u>
+			<font size=8>Online Application</font>
+		</center></b></strong></u>
+	</head>
+	<body>
+		<form action="reg.jsp" method="post">
+			<pre><b>
+					Serial No    :&nbsp<input type="text" name="Sno"><br>
+					Stud Na      :&nbsp<input type="text" name="Sna"><br>
+					Course       :&nbsp<input type="text" name="Course"><br>
+					Course Fee   :&nbsp<input type="text" name="Fee">
+			</pre></b>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			<input type="submit" value="Modify">
+	</form>
+	</body>
+</html>
+
+-->
+
+<html style="background-attachment: scroll;"><head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Basic Form</title>
+
+	
+	
+
+<style type="text/css">	#carbonads{		position: fixed;		bottom: 30px;		right: 40px;		background-color: rgba(255,255,255,0.9);		padding: 16px;		box-shadow: 2px 2px 2px rgba(0,0,0,0.1);		border-radius: 2px;		box-sizing: content-box;		width: 130px;		transition:0.3s background-color;	}	@media (max-width:900px){		#carbonads {				display:none;		}	}	#carbonads:before {		position: absolute;		content: "×";		width: 20px;		border-radius: 50%;		height: 20px;		background-color: #da2c2c;		font-family: sans-serif;		color: #fff;		text-align: center;		line-height: 20px;		font-size: 20px;		top: -8px;		right: -8px;		cursor: pointer;		opacity:0;		transition:0.3s opacity;	}	#carbonads:hover{		background-color: #fff;	}	#carbonads:hover:before{		opacity:1;	}	#carbonads a {		color: #303438 !important;		text-decoration: none !important;		font: 13px sans-serif !important;		font-weight: normal !important;		word-break: break-word;		display: block;		line-height: 1.45 !important;	}	#carbonads .carbon-img img{		border:none !important;		outline:none !important;		margin:0 auto 6px !important;	}	#carbonads a.carbon-poweredby{		display: block;		font-size: 10px !important;		color: #888 !important;		margin-top: 8px;		text-transform: uppercase;		line-height: 1 !important;	}	
+
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+	background-color: #efefef;
+}
+
+body{
+	font:14px/1.5 Arial, Helvetica, sans-serif;
+	margin:0;
+}
+
+
+header{
+    box-sizing: border-box;
+	text-align: center;
+    width: 100%;
+    padding: 25px 40px;
+    background-color:grey;
+    overflow: hidden;
+}
+
+
+header h1{
+    float: left;
+	font: normal 24px/1.5 'Open Sans', sans-serif;
+	color: #fff;
+}
+
+header a{
+    color:#fff;
+    float: right;
+    text-decoration: none;
+    display: inline-block;
+    padding: 13px 50px;
+    border-radius: 3px;
+    font: bold 14px/1 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    background-color:grey;
+
+}
+
+ul {
+    list-style: none;
+    border-bottom: 1px solid #EAEAEA;
+    background-color: #FFF;
+    padding: 20px;
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+ul a{
+    text-decoration: none;
+    color: #FFF;
+    text-align: left;
+    background-color: #BCB8C2;
+    padding: 10px 16px;
+    border-radius: 2px;
+    opacity: 0.8;
+    font-size: 16px;
+    display: inline-block;
+    margin: 4px;
+    line-height: 1;
+    outline: none;
+
+    transition: 0.2s ease;
+}
+
+ul li a.active{
+    background-color: #F05283;
+    pointer-events: none;
+}
+
+ul li a:hover {
+    opacity: 1;
+}
+
+
+ul li{
+    display: inline-block;
+}
+
+
+@media (max-width: 1000px) {
+
+
+    header h1{
+        float: none;
+    }
+
+    header a{
+        margin-top: 25px;
+        float: none;
+    }
+
+}
+
+.main-content{
+    margin-bottom: 75px;
+}
+
+/* -- Demo ads -- */
+
+@media (max-width: 1200px) {
+	#bsaHolder{ display:none;}
+}
+
+/* -- Link to Tutorialzine -- */
+
+.tz-link{
+	text-decoration: none;
+	color: #fff !important;
+	font: bold 36px Arial,Helvetica,sans-serif !important;
+}
+
+.tz-link span{
+	color: #da431c;
+}
+
+html{
+    background-color: #f3f3f3;
+}
+
+.form-basic{
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 55px;
+    box-sizing: border-box;
+
+    background-color:  #ffffff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+
+    font: bold 14px sans-serif;
+    text-align: center;
+}
+
+.form-basic .form-row{
+    text-align: left;
+    margin-bottom: 22px;
+}
+
+.form-basic .form-title-row{
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+/* The form title */
+
+.form-basic h1{
+    display: inline-block;
+    box-sizing: border-box;
+    color:  #4c565e;
+    font-size: 24px;
+    padding: 0 10px 15px;
+    border-bottom: 2px solid #6caee0;
+    margin: 0;
+}
+
+.form-basic .form-row > label span{
+    display: inline-block;
+    box-sizing: border-box;
+    color: #5F5F5F;
+    width: 180px;
+    text-align: right;
+    vertical-align: top;
+    padding: 12px 25px;
+}
+
+.form-basic input{
+    color:  #5f5f5f;
+    box-sizing: border-box;
+    width: 240px;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 12px;
+    border: 1px solid #dbdbdb;
+}
+
+.form-basic input[type=radio],
+.form-basic input[type=checkbox]{
+    box-shadow: none;
+    width: auto;
+}
+
+.form-basic input[type=checkbox]{
+    margin-top: 13px;
+}
+
+.form-basic select{
+    background-color: #ffffff;
+    color:  #5f5f5f;
+    box-sizing: border-box;
+    max-width: 240px;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 12px 8px;
+    border: 1px solid #dbdbdb;
+}
+
+.form-basic textarea{
+    color:  #5f5f5f;
+    box-sizing: border-box;
+    width: 240px;
+    height: 80px;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    font: normal 13px sans-serif;
+    padding: 12px;
+    border: 1px solid #dbdbdb;
+    resize: vertical;
+}
+
+.form-basic .form-radio-buttons{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.form-basic .form-radio-buttons > div{
+    margin-top: 10px;
+}
+
+.form-basic .form-radio-buttons label span{
+    margin-left: 8px;
+    color: #5f5f5f;
+    font-weight: normal;
+}
+
+.form-basic .form-radio-buttons input{
+    width: auto;
+}
+
+.form-basic button{
+    display: block;
+    border-radius: 2px;
+    background-color:  #6caee0;
+    color: #ffffff;
+    font-weight: bold;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 14px 22px;
+    border: 0;
+    margin: 40px 183px 0;
+}
+
+/*	Making the form responsive. Remove this media query
+    if you don't need the form to work on mobile devices. */
+
+@media (max-width: 600px) {
+
+    .form-basic{
+        padding: 830px;
+        max-width: 480px;
+    }
+
+    .form-basic .form-row{
+        max-width: 300px;
+        margin: 25px auto;
+        text-align: left;
+    }
+
+    .form-basic .form-title-row{
+        margin-bottom: 50px;
+    }
+
+    .form-basic .form-row > label span{
+        display: block;
+        text-align: left;
+        padding: 0 0 15px;
+    }
+
+    .form-basic select{
+        width: 240px;
+    }
+
+    .form-basic input[type=checkbox]{
+        margin-top:0;
+    }
+
+    .form-basic .form-radio-buttons > div{
+        margin: 0 0 10px;
+    }
+
+    .form-basic button{
+        margin: 0;
+    }
+
+}
+
+
+
+</style><script id="_carbonads_projs" type="text/javascript" src="//srv.carbonads.net/ads/C6AILKT.json?segment=placement:tutorialzinecom&amp;callback=_carbonads_go"></script></head>
+
+
+	<body><header>
+		<h1> Zero Costing Hiring</h1>
+           </header>
+
+
+
+    <div class="main-content">
+
+        <!-- You only need this form and the form-basic.css -->
+
+        <form method="post" class="form-basic" action="reg.jsp">
+
+            <div class="form-title-row">
+                <h1>Student Registeration form </h1>
+            </div>
+
+            <div class="form-row">
+                <label>
+                    <span>Full name</span>
+                    <input type="text" name="name">
+                </label>
+            </div>
+
+            <div class="form-row">
+                <label>
+                    <span>Email</span>
+                    <input type="email" name="email">
+                </label>
+            </div>
+
+            <div class="form-row">
+                <label>
+                    <span>Phone No/Mobile number</span>
+                    <Input type="number" name="mob">
+                </label>
+            </div>
+
+          <!--  <div class="form-row">
+                <label>
+                    <span>Course</span>
+                    <select name="dm">
+                        <option>--Java--</option>
+                        <option>--.Net--</option>
+                        <option>--Testing--</option>
+                        <option>--NDT--</option>
+                        <option>--Others--</option>
+                    </select>
+                </label>
+            </div>-->
+             <div class="form-row">
+                <label>
+                    <span>Course</span>
+                    <input type="text" name="course">
+                </label>
+            </div>
+
+
+             <div class="form-row">
+                <label>
+                    <span>Qualification</span>
+                    <input type="text" name="qf">
+                </label>
+            </div>
+            
+             <div class="form-row">
+                <label>
+                    <span>Fee</span>
+                    <Input type="number" name="fee">
+                </label>
+            </div>
+
+           
+      
+
+            <div class="form-row">
+				<!--<input type="submit" name="ok" />-->
+                <button type="submit" name="ok">Submit Form</button>
+            </div>
+            
+          
+
+        </form>
+          <form action="user.jsp" method="get" class="form-basic">
+         <div class="form-row">
+				<!--<input type="submit" name="ok" />-->
+                <button type="submit" name="ok">Get list DATA</button>
+            </div></form>
+        
+
+   </form>
+          <form action="basic.jsp" method="post" class="form-basic">
+			   <div class="form-row">
+                <label>
+                    <span>name</span>
+                    <Input type="text" name="id">
+                </label>
+            </div>
+
+         <div class="form-row">
+				<!--<input type="submit" name="ok" />-->
+                <button type="submit" name="">search DATA</button>
+            </div></form>
+
+
+
+    </div>
+
+
+	
+
+
+
+
+</body></html>
